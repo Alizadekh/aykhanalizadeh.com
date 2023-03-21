@@ -1,6 +1,9 @@
 .allsite{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
 
     .left{
         width: 22%;
@@ -70,5 +73,10 @@
                 font-size: 13px;
             }
         }
+    }
+    // Left hissesi yeni header bitti
+
+    .right{
+        width: 75%;        
     }
 }
