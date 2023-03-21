@@ -7,7 +7,7 @@
 
     .left{
         width: 22%;
-        height: 100%;
+        height: auto;
         background-color: rgb(242,243,247);
         padding-bottom: 100px;
         position: fixed;
@@ -77,6 +77,55 @@
     // Left hissesi yeni header bitti
 
     .right{
-        width: 75%;        
+        width: 78%;
+        margin-left: 340px;
+
+        .section-1{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .texts{
+                width: 50%;
+                margin-top: 250px;
+                margin-left: 30px;
+                h1{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 47px;
+                }
+                .about{
+                    margin: 20px 0px;
+                    p{
+                        font-family: 'Sora', sans-serif;
+
+                    }
+                }
+                button{
+                    padding: 10px 50px;
+                    font-family: 'Sora', sans-serif;
+                    background-color: transparent;
+                    border: 1px solid black;
+                    color: black;
+                    transition: 0.6s;   
+                    cursor: pointer;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+
+                    }
+                    i{
+                        padding-left: 5px;
+                    }
+                }
+
+            }
+            .images{
+                width: 50%;
+                img{
+                    width: 80%;
+                    margin-left: 50px;
+                }
+            }
+        }
     }
 }
