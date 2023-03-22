@@ -81,6 +81,7 @@
         margin-left: 340px;
 
         .section-1{
+            margin-bottom: 200px;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -108,6 +109,7 @@
                     color: black;
                     transition: 0.6s;   
                     cursor: pointer;
+                    align-items: center;
                     &:hover{
                         background-color: black;
                         color: white;
@@ -115,6 +117,7 @@
                     }
                     i{
                         padding-left: 5px;
+                        font-size: 18px;
                     }
                 }
 
@@ -126,6 +129,88 @@
                     margin-left: 50px;
                 }
             }
+        }
+        .section-2{
+            margin-left: 30px;
+            .about-texts{
+                p{
+                    font-family: 'Sora', sans-serif;
+                    margin:20px 0px;
+                    font-size: 14px;
+                }
+                h3{
+                    font-size: 25px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    margin-bottom: 30px;
+                }
+                button{
+                    padding: 10px 50px;
+                    font-family: 'Sora', sans-serif;
+                    background-color: transparent;
+                    border: 1px solid black;
+                    color: black;
+                    transition: 0.6s;   
+                    cursor: pointer;
+                    align-items: center;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+
+                    }
+                    i{
+                        padding-left: 5px;
+                        font-size: 13px;
+                    }
+                }
+            }
+            .about-boxes{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 40px;
+                margin-bottom: 30px;
+                .box{
+                    width: 23%;
+                    padding: 30px 30px;
+                    background-color: rgba(242, 243, 247, 0.823);;
+                    text-align: left;
+                    border-radius: 6px;
+                    
+                    i{
+                        font-size: 28px;
+                        margin: 10px 0px;
+                    }
+                    h3{
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-size: 21   px;
+                    }
+                }
+            }
+            .hirebox{
+                margin: 35px 0px;
+                background-color: #f9bf3f;
+                padding: 45px 10px;
+                h2{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 32px; 
+                    margin-left: 10px;
+                }
+                button{
+                    border: 1px solid black;
+                    background-color: transparent;
+                    padding: 5px 10px;
+                    font-family: 'Sora', sans-serif;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    transition: 0.6s;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: black;
+                        color: #f9bf3f;
+                    }
+                }
+            }
+
         }
     }
 }
