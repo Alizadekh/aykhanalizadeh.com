@@ -95,3 +95,15 @@ degree1Title.addEventListener('click', (event) => {
   }
 });
 
+
+function toggleNavbar() {
+  var navbarContent = document.getElementById("mobile-navbar-content");
+  if (navbarContent.style.display === "block") {
+    navbarContent.style.display = "none";
+  } else {
+    navbarContent.style.display = "block";
+  }
+}
+
+
+

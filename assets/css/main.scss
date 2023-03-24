@@ -4,6 +4,89 @@
     display: flex;
     justify-content: space-between;
 
+    .mobile-navbar{
+        display: none;
+        width: 100%;
+        height: auto;
+        background-color: rgb(242,243,247);
+        padding-bottom: 20px;
+        
+
+        .burger-menu{
+            padding: 20px;
+            font-size: 30px;
+            background-color: white;
+            display: flex;
+            h3{
+                text-align: center;
+                margin: auto;
+                font-size: 24px;
+            }
+        }
+
+        .mobile-profile-photo{
+            width: 100%;
+            padding-top: 5px;
+            text-align: center;
+
+            img{
+                width: 50%;
+                border-radius: 20%;
+            }
+        }
+
+        .mobile-name{
+            margin-top: 5px;
+            width: 100%;
+            h1{
+                font-size: 18px;
+                font-family: 'Josefin Sans', sans-serif;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+        }
+        .mobile-profession{
+            margin-bottom: 5px;
+            p{
+                text-align: center;
+                font-family: 'Josefin Sans', sans-serif;
+                color: grey;
+                font-size: 10px;
+                span{
+                    color: rgba(0, 0, 255, 0.645);
+                }
+            }
+        }
+        .mobile-navbar{
+            margin-bottom: 5px;
+            text-align: center;
+            div{
+                margin: 7.5px 0px;
+                span{
+                    font-family: 'Sora', sans-serif;
+                    font-size:13px;
+                    text-align: center;
+                    transition: 0.2s;
+                    &:hover{
+                        color: rgba(0, 0, 255, 0.645);
+                        cursor: pointer;
+                        border-bottom: 1px solid rgba(0, 0, 255, 0.645);
+                        
+                    }
+                }
+            }
+        }
+        footer{
+            width: 90%;
+            margin: auto;
+            p{
+                text-align: center;
+                font-family: 'Sora', sans-serif;
+                font-size: 13px;
+            }
+        }
+    }
+
     .left{
         width: 22%;
         height: auto;
@@ -84,12 +167,6 @@
             width: 100%;
             display: flex;
             justify-content: space-between;
-            .burger-menu{
-                font-size: 32px;
-                margin-left: 10px;
-                position: fixed;
-                display: none;
-            }
 
             .texts{
                 width: 50%;
@@ -177,6 +254,7 @@
                 .box{
                     width: 23%;
                     padding: 30px 30px;
+                    margin: 10px 0px;
                     background-color: rgba(242, 243, 247, 0.823);;
                     text-align: left;
                     border-radius: 6px;
@@ -198,7 +276,7 @@
                     }
                     h3{
                         font-family: 'Josefin Sans', sans-serif;
-                        font-size: 21   px;
+                        font-size: 21px;
                     }
                 }
             }
@@ -358,7 +436,8 @@
             }
             .education-info{
                 margin-top: 50px;
-                border-left: 5px solid #2c98f0;
+                border-left: 8px solid #2c98f0;
+                border-radius: 6px;
                 padding-left: 10px;
 
                 .degree-title{
@@ -374,7 +453,7 @@
                         font-family: 'Josefin Sans', sans-serif;
                         font-size: 13px;
                         margin-top: 5px;
-                        color: black;
+                        color: rgb(255, 255, 255);
                         
                     }
                     h3{
@@ -422,7 +501,8 @@
             }
             .education-info1{
                 margin-top: 30px;
-                border-left: 5px solid #ff0000;
+                border-left: 8px solid #ffae00;
+                border-radius: 6px;
                 padding-left: 10px;
 
                 .degree-title1{
@@ -432,13 +512,13 @@
                     padding-left: 10px;
                     display: flex;
                     justify-content: space-between;
-                    background-color: #ec5453;
+                    background-color: #f9bf3f;
                     border-radius: 5px;
                     p{
                         font-family: 'Josefin Sans', sans-serif;
                         font-size: 13px;
                         margin-top: 5px;
-                        color: black;
+                        color: rgb(255, 255, 255);
                         
                     }
                     h3{
@@ -457,8 +537,8 @@
                 .info-box1{
                     display: flex;
                     height: 300px;
-                    border-right: 5px solid #ec5453;
-                    border-bottom: 5px solid #ec5453;
+                    border-right: 5px solid #f9bf3f;
+                    border-bottom: 5px solid #f9bf3f;
                     padding-bottom: 10px;
                     border-radius: 6px;
                     display: none;
@@ -484,6 +564,25 @@
                     }
                   }
             }
+        }
+        .section-5{
+            padding-top: 50px;
+            margin-left: 30px;
+            margin-top: 100px;
+            .exp-title{
+                p{
+                    font-family: 'Josefin Sans', sans-serif;
+                    margin-bottom: 20px;
+                }
+                h3{
+                    font-family: 'Sora', sans-serif;
+                    margin: 20px 0px;
+                }
+            }
+            .exp-text{
+                font-family: 'Sora', sans-serif;
+            }
+
         }
         .section-end{
             margin-left: 30px;

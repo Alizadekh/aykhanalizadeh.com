@@ -1,1 +1,144 @@
-/*# sourceMappingURL=responsive.css.map */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+  .container .allsite {
+    display: block !important;
+    width: 100% !important;
+  }
+  .container .allsite .mobile-navbar {
+    display: block !important;
+    position: fixed;
+    padding-bottom: 0px;
+  }
+  .container .allsite .left {
+    display: none !important;
+  }
+  .container .allsite .right {
+    width: 100% !important;
+    margin-left: 0px;
+  }
+  .container .allsite .right .section-1 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    background-image: url("./pngegg.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+  }
+  .container .allsite .right .section-1 .texts {
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .container .allsite .right .section-1 .texts h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 45px;
+    text-align: end;
+  }
+  .container .allsite .right .section-1 .texts .about {
+    margin: 20px 0px;
+  }
+  .container .allsite .right .section-1 .texts .about p {
+    font-family: "Sora", sans-serif;
+  }
+  .container .allsite .right .section-1 .texts button {
+    padding: 10px 50px;
+    font-family: "Sora", sans-serif;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: 0.6s;
+    cursor: pointer;
+    align-items: center;
+  }
+  .container .allsite .right .section-1 .texts button:hover {
+    background-color: black;
+    color: white;
+  }
+  .container .allsite .right .section-1 .texts button i {
+    padding-left: 5px;
+    font-size: 18px;
+  }
+  .container .allsite .right .section-1 .images {
+    display: none !important;
+  }
+  .container .allsite .right .section-2 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .container .allsite .right .section-2 .about-boxes {
+    display: block !important;
+  }
+  .container .allsite .right .section-2 .about-boxes .box {
+    width: 100% !important;
+  }
+  .container .allsite .right .section-2 .about-boxes .box h3 {
+    font-size: 28px;
+  }
+  .container .allsite .right .section-2 .hirebox button {
+    width: 90% !important;
+  }
+  .container .allsite .right .section-3 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .container .allsite .right .section-3 .myskills {
+    display: block !important;
+  }
+  .container .allsite .right .section-3 .myskills .skillbox {
+    width: 100%;
+  }
+  .container .allsite .right .section-3 .parallax {
+    display: block !important;
+    height: auto !important;
+    padding: 20px 0px !important;
+  }
+  .container .allsite .right .section-3 .parallax .moves {
+    width: 90%;
+    padding: 10px;
+  }
+  .container .allsite .right .section-4 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .container .allsite .right .section-4 .info-box img {
+    display: none !important;
+  }
+  .container .allsite .right .section-4 .info-box1 img {
+    display: none !important;
+  }
+  .container .allsite .right .section-5 {
+    margin-left: 10px !important;
+  }
+  .container .allsite .right .section-end {
+    margin-left: 10px !important;
+    margin-right: 10px;
+  }
+  .container .allsite .right .section-end .contact-information {
+    display: block !important;
+  }
+  .container .allsite .right .section-end .contact-information .contact-left {
+    width: 90% !important;
+    margin-bottom: 20px;
+  }
+  .container .allsite .right .section-end .contact-information .contact-left .c-logo {
+    padding: 30px !important;
+    margin-left: 0px !important;
+  }
+  .container .allsite .right .section-end .contact-information .contact-left .c-logo i {
+    font-size: 24px;
+  }
+  .container .allsite .right .section-end .contact-information .contact-left p {
+    font-size: 14px;
+  }
+  .container .allsite .right .section-end .contact-information .contact-right {
+    width: 100% !important;
+  }
+  .container .allsite .right .section-end .contact-information .contact-right input {
+    width: 100%;
+  }
+  .container .allsite .right .section-end .contact-information .contact-right button {
+    width: 100%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
