@@ -11,6 +11,20 @@
   background-color: rgb(242, 243, 247);
   padding-bottom: 20px;
 }
+.allsite .mobile-navbar .mobile-navbar-content {
+  display: none;
+  animation-name: slide-down;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .allsite .mobile-navbar .burger-menu {
   padding: 20px;
   font-size: 30px;
