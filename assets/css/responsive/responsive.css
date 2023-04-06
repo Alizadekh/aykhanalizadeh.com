@@ -95,8 +95,9 @@
     padding: 20px 0px !important;
   }
   .container .allsite .right .section-3 .parallax .moves {
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
   }
   .container .allsite .right .section-4 {
     margin-left: 10px !important;

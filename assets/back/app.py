@@ -30,7 +30,7 @@ def send_email():
         
         return "E-poçt göndərildi!."
     except:
-        return "E-poçt göndərilməd. Təkrar yoxlayın."
+        return "E-poçt göndərilmədi. Təkrar yoxlayın."
     
 @app.route('/')
 def index():

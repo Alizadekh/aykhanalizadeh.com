@@ -26,9 +26,9 @@
 <body>
     <div class="container">
         <div class="allsite">
-            <div class="mobile-navbar">
+            <div id="all-nav" class="mobile-navbar">
                 <div class="burger-menu" >
-                    <i class="fa-solid fa-bars" onclick="toggleNavbar()"></i>
+                    <i id="burger-icon" class="fa-solid fa-bars" onclick="toggleNavbar()"></i>
                     <h3>Aykhan Alizadeh</h3>
                 </div>
                 <div class="mobile-navbar-content"  id="mobile-navbar-content">
@@ -370,7 +370,7 @@
                                 <p>+99477 307 91 15</p>
                             </div>
                         </div>
-                        <form method="POST" action="http://localhost:5500/contact" class="contact-right">
+                        <form method="POST" action="http://aykhanalizadekh.netlify.app/contact" class="contact-right">
                             <input type="text" placeholder="Name" name="name">
                             <input type="text" placeholder="Surname" name="surname">
                             <input type="text" placeholder="Subject" name="subject">

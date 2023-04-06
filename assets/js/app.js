@@ -80,6 +80,7 @@ degreeTitle.addEventListener('click', (event) => {
   }
 });
 
+
 const degree1Title = document.querySelector('.degree-title1');
 const infoBox1 = document.querySelector('.info-box1');
 const toggleBtn1 = document.querySelector('#toggle-info1');
@@ -95,14 +96,8 @@ degree1Title.addEventListener('click', (event) => {
 });
 
 
-function toggleNavbar() {
-  var navbarContent = document.getElementById("mobile-navbar-content");
-  if (navbarContent.style.display === "block") {
-    navbarContent.style.display = "none";
-  } else {
-    navbarContent.style.display = "block";
-  }
-}
+
+
 
 
 

@@ -91,7 +91,7 @@
                     .myskills{
                         display: block !important;
                         .skillbox{
-                            width: 100% ;
+                            width: 100%;
                         }
                     }
                     .parallax{
@@ -100,8 +100,9 @@
                         padding: 20px 0px !important;
 
                         .moves{
-                            width: 90%;
-                            padding: 10px;
+                            width: 100%;
+                            padding: 10px 0px;
+                            text-align: center;
                         }
                     }
                 }
