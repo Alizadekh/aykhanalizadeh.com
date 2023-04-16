@@ -508,7 +508,8 @@
                     display: none;
                     opacity: 0;
                     max-height: 0;
-                    transition: all 0.3s ease-in-out;
+                    overflow: hidden;
+                    transition: max-height 0.3s ease, opacity 0.3s ease;
                     img{
                         border-radius: 6px;
                         margin-right: 10px;
@@ -519,8 +520,8 @@
                     }
                     .info-box.show {
                         opacity: 1;
-                        max-height: 1000px;
-                        transition: all 0.3s ease-in-out;
+                        max-height: 200px; /* veya istediğiniz bir yükseklik değeri */
+                        transition: max-height 0.5s ease, opacity 0.5s ease;
                       }
                 }
                 .info-box.show {
