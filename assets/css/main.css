@@ -190,6 +190,20 @@
 .allsite .right .section-1 .texts .about p {
   font-family: "Sora", sans-serif;
 }
+.allsite .right .section-1 .texts .about .animate-text {
+  animation: typing 5s steps(30, end) infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 .allsite .right .section-1 .texts button {
   padding: 10px 50px;
   font-family: "Sora", sans-serif;

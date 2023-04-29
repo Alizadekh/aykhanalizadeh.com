@@ -56,6 +56,53 @@ function toggleNavbar() {
 }
 
 
+function animateNumber(el) {
+  var start = 0,
+      end = parseInt(el.innerText),
+      duration = 1000, // animasyon süresi (ms)
+      range = end - start,
+      current = start,
+      increment = end > start ? 1 : -1,
+      stepTime = Math.abs(Math.floor(duration / range)),
+      obj = el;
+
+  function animate() {
+    var val = Math.round(current);
+    if (current == end) {
+      cancelAnimationFrame(animate);
+    } else {
+      current += increment;
+      obj.innerText = val;
+      requestAnimationFrame(animate);
+    }
+  }
+  animate();
+}
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  var coffee = document.querySelector('.coffee span'),
+      project = document.querySelector('.project span'),
+      certificates = document.querySelector('.certificates span'),
+      thank = document.querySelector('.thank span');
+  
+  window.addEventListener('scroll', function() {
+    var scrollPosition = window.innerHeight + window.scrollY;
+    
+    if (coffee.getBoundingClientRect().top < scrollPosition && coffee.innerText == '111') {
+      animateNumber(coffee);
+    }
+    if (project.getBoundingClientRect().top < scrollPosition && project.innerText == '15') {
+      animateNumber(project);
+    }
+    if (certificates.getBoundingClientRect().top < scrollPosition && certificates.innerText == '6') {
+      animateNumber(certificates);
+    }
+    if (thank.getBoundingClientRect().top < scrollPosition && thank.innerText == '3') {
+      animateNumber(thank);
+    }
+  });
+});
+
 
 
 

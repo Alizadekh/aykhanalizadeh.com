@@ -205,6 +205,22 @@
                         font-family: 'Sora', sans-serif;
 
                     }
+                    .animate-text {
+                        animation: typing 5s steps(30, end) infinite;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        border-right: 3px solid;
+                     }
+                     
+                     @keyframes typing {
+                        from {
+                           width: 0;
+                        }
+                        to {
+                           width: 100%;
+                        }
+                     }
+                     
                 }
                 button{
                     padding: 10px 50px;
