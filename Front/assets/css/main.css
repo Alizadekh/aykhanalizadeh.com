@@ -224,10 +224,20 @@
 }
 .allsite .right .section-1 .images {
   width: 50%;
+  z-index: -1;
+  animation: swinging 5s ease-in-out infinite;
 }
 .allsite .right .section-1 .images img {
   width: 80%;
   margin-left: 50px;
+}
+@keyframes swinging {
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 .allsite .right .section-2 {
   margin-left: 30px;
