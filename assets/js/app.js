@@ -215,8 +215,8 @@ function switchThemeToWhite() {
   document.getElementById("sunicon").style.backgroundColor = "";
   document.getElementById("moonicon").style.backgroundColor = "";
 
-  document.getElementsByTagName("body")[0].style.backgroundColor = "white";
-  document.getElementById("left-part").style.backgroundColor = "rgb(242,243,247)";
+  document.body.style.backgroundColor = "white";
+  document.getElementById("left-part").style.backgroundColor = "rgb(242, 243, 247)";
   document.getElementById("name").style.color = "black";
   document.getElementById("profession").style.color = "black";
 
@@ -227,15 +227,15 @@ function switchThemeToWhite() {
 
   document.getElementById("footer").querySelector("p").style.color = "black";
   document.getElementById("home").style.color = "black";
-  document.getElementById("home").querySelector("button").style.color = "black";
-  document.getElementById("home").querySelector("button").style.borderColor = "black";
+  document.getElementById("home").querySelector("button").style.color = "black"
+  document.getElementById("home").querySelector("button").style.borderColor = "black"
   document.getElementById("home").querySelector("button").addEventListener("mouseover", function() {
     this.style.backgroundColor = "black";
-    this.style.color = "white";
-  });
+    this.style.color = "white"
   document.getElementById("home").querySelector("button").addEventListener("mouseout", function() {
     this.style.backgroundColor = "";
-    this.style.color = "black";
+    this.style.color = "black"
+    });
   });
 
   let abouttags = document.getElementById("about").querySelector("h3");
@@ -245,60 +245,59 @@ function switchThemeToWhite() {
   for (let i = 0; i < abouttagsp.length; i++) {
     abouttagsp[i].style.color = "black";
   }
-  document.getElementById("about").querySelector("button").style.color = "black";
-  document.getElementById("about").querySelector("button").style.borderColor = "black";
+
+  document.getElementById("about").querySelector("button").style.color = "black"
+  document.getElementById("about").querySelector("button").style.borderColor = "black"
   document.getElementById("about").querySelector("button").addEventListener("mouseover", function() {
     this.style.backgroundColor = "black";
-    this.style.color = "white";
-  });
+    this.style.color = "white"
   document.getElementById("about").querySelector("button").addEventListener("mouseout", function() {
     this.style.backgroundColor = "";
-    this.style.color = "black";
+    this.style.color = "black"
+    });
   });
 
   let boxes = document.getElementById("about-boxes").querySelectorAll(".box");
   for (let i = 0; i < boxes.length; i++) {
     boxes[i].style.backgroundColor = "";
   }
+
   let boxtitles = document.getElementById("about-boxes").querySelectorAll("h3");
   for (let i = 0; i < boxtitles.length; i++) {
     boxtitles[i].style.color = "black";
   }
 
-
-  document.getElementById("skills").querySelector("h3").style.color = "black"
-  let skillsparagraph = document.getElementById("skills").querySelectorAll("p")
-  for (i = 0; i < skillsparagraph.length; i++) {
-    skillsparagraph[i].style.color = ""
+  document.getElementById("skills").querySelector("h3").style.color = "black";
+  let skillsparagraph = document.getElementById("skills").querySelectorAll("p");
+  for (let i = 0; i < skillsparagraph.length; i++) {
+    skillsparagraph[i].style.color = "";
   }
 
-  document.getElementById("edu-title").querySelector("p").style.color = ""
-  document.getElementById("edu-title").querySelector("h3").style.color = ""
-  document.getElementById("info-box").querySelector("p").style.color = ""
-  document.getElementById("info-box1").querySelector("p").style.color = ""
+  document.getElementById("edu-title").querySelector("p").style.color = "";
+  document.getElementById("edu-title").querySelector("h3").style.color = "";
+  document.getElementById("info-box").querySelector("p").style.color = "";
+  document.getElementById("info-box1").querySelector("p").style.color = "";
 
-  const experience = document.getElementById("experience").querySelectorAll("div")
-  for (i =0 ; i < experience.length; i++) {
-    experience[i].style.color = ""
+  const experience = document.getElementById("experience").querySelectorAll("div");
+  for (let i = 0; i < experience.length; i++) {
+    experience[i].style.color = "";
   }
 
-  const contact = document.getElementById("contact").querySelectorAll("div")
-  for (i=0; i < contact.length; i++) {
-    contact[i].style.color = "black"
+  const contact = document.getElementById("contact").querySelectorAll("div");
+  for (let i = 0; i < contact.length; i++) {
+    contact[i].style.color = "black";
   }
-  document.getElementById("contact").querySelector("a").style.color = ""
+  document.getElementById("contact").querySelector("a").style.color = "";
 
-  const inputs =  document.getElementById("contact-left").querySelectorAll("all-info")
-  for (i = 0; i < inputs.length; i++) {
-    const logo = inputs.querySelectorAll("c-logo")
-    for (i = 0; i < logo.length; i++) {
-      logo[i].style.backgroundColor = ""
+  const inputs = document.getElementById("contact-left").querySelectorAll(".all-info");
+  for (let i = 0; i < inputs.length; i++) {
+    const logos = inputs[i].querySelectorAll(".c-logo");
+    for (let j = 0; j < logos.length; j++) {
+      logos[j].style.backgroundColor = "";
     }
   }
-
-  
-
 }
+
 
 
 
