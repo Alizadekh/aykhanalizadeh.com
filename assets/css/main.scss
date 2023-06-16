@@ -1,4 +1,4 @@
-.allsite{
+ .allsite{
     width: 100%;
     margin: auto;
     display: flex;
@@ -171,11 +171,47 @@
         }
         footer{
             width: 90%;
-            margin: auto;
+            margin: auto !important;
+            text-align: center;
+            align-items: center;
             p{
                 text-align: center;
                 font-family: 'Sora', sans-serif;
                 font-size: 13px;
+                margin-bottom: 20px;
+            } 
+            .switch-theme{
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                width: 22%;
+                margin: auto;
+                border: 1px solid rgba(0, 0, 0, 0.096);
+                border-radius: 100px;
+                padding: 5px;
+
+                i{
+                    cursor: pointer;
+                }
+                .sun{
+                    background-color: rgb(167, 167, 167);
+                    padding: 4px;
+                    border-radius: 100px;
+                    i{
+                        color: rgb(255, 208, 0);
+                    }
+                }
+                .moon{
+                    background-color: transparent;
+                    padding: 4px;
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    border-radius: 100px;
+                    i{
+                        color: rgb(42, 42, 183);
+                    }
+                }
             }
         }
     }
@@ -305,7 +341,7 @@
                     width: 23%;
                     padding: 30px 30px;
                     margin: 10px 0px;
-                    background-color: rgba(242, 243, 247, 0.823);;
+                    background-color: rgba(242, 243, 247, 0.823);
                     text-align: left;
                     border-radius: 6px;
                     cursor: pointer ;

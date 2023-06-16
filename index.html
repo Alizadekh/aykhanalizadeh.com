@@ -69,17 +69,17 @@
                     </footer>  
                 </div>                    
             </div>
-            <div class="left">
+            <div class="left" id="left-part">
                 <div class="profile-photo">
                     <img src="./assets/photos/men.jpg" alt="">
                 </div>
-                <div class="name">
+                <div class="name" id="name">
                     <h1>Aykhan Alizadeh</h1>
                 </div>
-                <div class="profession">
-                    <p><span class="bluepart"> Artificial Intelligence </span> Engineer</p>
+                <div class="profession" >
+                    <p id="profession"><span class="bluepart"> Artificial Intelligence </span> Engineer</p>
                 </div>
-                <div class="navbar">
+                <div class="navbar" id="navbar">
                     <div class="home">
                         <a href="#home"><span>HOME</span></a>
                     </div>
@@ -102,8 +102,16 @@
                         <a href="#contact"><span>CONTACT</span></a>
                     </div>
                 </div>
-                <footer>
+                <footer id="footer">
                     <p>©Copyright ©2023 All rights reserved | This site is made with  by Aykhan Alizadeh </p>
+                    <div class="switch-theme" id="switchbutton">
+                        <div class="sun" id="sunicon" onclick="switchThemeToWhite()">
+                            <i class="fa-solid fa-sun"></i>
+                        </div>
+                        <div class="moon" id="moonicon" onclick="switchThemeToBlack()">
+                            <i class="fa-solid fa-moon"></i>
+                        </div>
+                    </div>
                 </footer>
             </div>
             <div class="right">
@@ -115,7 +123,7 @@
                         </h1>
                         <div class="about">
                             <p class="animate-text">
-                                I'm interesting in Artificial Intelligence and
+                                I'm interested in Artificial Intelligence and
                                 learn it. 
                             </p>
                         </div>
@@ -131,7 +139,7 @@
                 </section>
                 <section id="about" class="section-2">
                     <div class="about-texts">
-                        <p >
+                        <p>
                             ABOUT
                         </p>
                         <h3>
@@ -147,7 +155,7 @@
                             DOWNLOAD MY CV<i class="fa-regular fa-address-card"></i>
                         </button></a>
                     </div>
-                    <div class="about-boxes">
+                    <div class="about-boxes" id="about-boxes">
                         <div class="box" style="border-bottom: 4px solid rgb(96, 96, 253);">
                             <i class="fa-solid fa-compass-drafting" style="color: rgb(96, 96, 253); ;"></i>
                             <h3>Graphic Design</h3>
@@ -307,7 +315,7 @@
                     </div>
                 </section>
                 <section id="education" class="section-4">
-                    <div class="edu-title">
+                    <div class="edu-title" id="edu-title">
                         <p>BORN, LEARN, PRACTICE, DEAD</p>
                         <h3>EDUCATION</h3>
                     </div>
@@ -317,7 +325,7 @@
                           <p>(2022 - 2026)</p></h3>
                           <button id="toggle-info">+</button>
                         </div>
-                        <div class="info-box">
+                        <div class="info-box" id="info-box">
                           <img src="./assets/photos/myimage.jpg" alt="myimage">
                           <p>I am Aykhan Alizadeh, I graduated from secondary school number 149 in 2022. In the same year, I was admitted to the Electrical and Electronics Engineering major of the Energy Faculty of Azerbaijan State Oil and Industry University. I actively participate in events, competitions, and hackathons held at the university. As I like to develop myself, I get advice about it from University teachers. I love the Electronics part of my major. I am developing myself in the fields of electronics and robotics technology</p>
                         </div>
@@ -328,7 +336,7 @@
                           <p>(1 month in 2023)</p></h3>
                           <button id="toggle-info1">+</button>
                         </div>
-                        <div class="info-box1">
+                        <div class="info-box1" id="info-box1">
                           <img src="./assets/photos/gpts.jpg" alt="myimage">
                           <p>1 month after the entry of 2023, I was admitted to the "Young Programmers Training Session" held by the Youth Foundation. I successfully passed the interview and competition stage and earned the right to participate in this training. As a result of 1-month intensive classes, I learned HTML, CSS and JavaScript at the basic level. In the end, I successfully completed the course by handing over my final project.</p>
                         </div>
@@ -350,7 +358,7 @@
                         <h3>CONTACT</h3>
                     </div>
                     <div class="contact-information">
-                        <div class="contact-left">
+                        <div class="contact-left" id="contact-left">
                             <div class="all-info">
                                 <div class="c-logo">
                                     <i class="fa-solid fa-globe"></i>
