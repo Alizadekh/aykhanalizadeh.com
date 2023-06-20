@@ -307,10 +307,10 @@
     transform: translateX(0%);
   }
 }
-.allsite .right .section-2 {
+.allsite .right #about {
   margin-left: 30px;
 }
-.allsite .right .section-2 .about-texts p {
+.allsite .right #about .about-texts p {
   font-family: "Sora", sans-serif;
   margin: 20px 0px;
   font-size: 14px;
@@ -327,12 +327,12 @@
     transform: none;
   }
 }
-.allsite .right .section-2 .about-texts h3 {
+.allsite .right #about .about-texts h3 {
   font-size: 25px;
   font-family: "Josefin Sans", sans-serif;
   margin-bottom: 30px;
 }
-.allsite .right .section-2 .about-texts button {
+.allsite .right #about .about-texts button {
   padding: 10px 50px;
   font-family: "Sora", sans-serif;
   background-color: transparent;
@@ -342,22 +342,22 @@
   cursor: pointer;
   align-items: center;
 }
-.allsite .right .section-2 .about-texts button:hover {
+.allsite .right #about .about-texts button:hover {
   background-color: black;
   color: white;
 }
-.allsite .right .section-2 .about-texts button i {
+.allsite .right #about .about-texts button i {
   padding-left: 5px;
   font-size: 13px;
 }
-.allsite .right .section-2 .about-boxes {
+.allsite .right #about #about-boxes {
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 30px;
 }
-.allsite .right .section-2 .about-boxes #box {
+.allsite .right #about #about-boxes #box {
   width: 23%;
   padding: 30px 30px;
   margin: 10px 0px;
@@ -367,98 +367,98 @@
   cursor: pointer;
   transition: 0.4s;
 }
-.allsite .right .section-2 .about-boxes #box:hover {
+.allsite .right #about #about-boxes #box:hover {
   transform: scale(1.1);
   box-shadow: 3px 5px rgba(0, 0, 0, 0.137);
 }
-.allsite .right .section-2 .about-boxes #box:hover i {
+.allsite .right #about #about-boxes #box:hover i {
   transform: translateX(110px);
 }
-.allsite .right .section-2 .about-boxes #box i {
+.allsite .right #about #about-boxes #box i {
   font-size: 28px;
   margin: 10px 0px;
   transition: 0.9s;
 }
-.allsite .right .section-2 .about-boxes #box h3 {
+.allsite .right #about #about-boxes #box h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 21px;
 }
-.allsite .right .section-2 .about-boxes .box-1 {
+.allsite .right #about #about-boxes .box-1 {
   border-bottom: 4px solid rgb(96, 96, 253);
 }
-.allsite .right .section-2 .about-boxes .box-1 i {
+.allsite .right #about #about-boxes .box-1 i {
   color: rgb(96, 96, 253);
 }
-.allsite .right .section-2 .about-boxes .box-1:hover {
+.allsite .right #about #about-boxes .box-1:hover {
   border-bottom: 4px solid rgb(255, 255, 255); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #00d2ff, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.allsite .right .section-2 .about-boxes .box-1:hover i {
+.allsite .right #about #about-boxes .box-1:hover i {
   color: white;
 }
-.allsite .right .section-2 .about-boxes .box-1:hover h3 {
+.allsite .right #about #about-boxes .box-1:hover h3 {
   color: white;
 }
-.allsite .right .section-2 .about-boxes .box-2 {
+.allsite .right #about #about-boxes .box-2 {
   border-bottom: 4px solid rgb(255, 13, 13);
 }
-.allsite .right .section-2 .about-boxes .box-2 i {
+.allsite .right #about #about-boxes .box-2 i {
   color: rgb(255, 13, 13);
 }
-.allsite .right .section-2 .about-boxes .box-2:hover {
+.allsite .right #about #about-boxes .box-2:hover {
   border-bottom: 4px solid rgb(255, 255, 255); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ff512f, #dd2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.allsite .right .section-2 .about-boxes .box-2:hover i {
+.allsite .right #about #about-boxes .box-2:hover i {
   color: white;
 }
-.allsite .right .section-2 .about-boxes .box-2:hover h3 {
+.allsite .right #about #about-boxes .box-2:hover h3 {
   color: white;
 }
-.allsite .right .section-2 .about-boxes .box-3 {
+.allsite .right #about #about-boxes .box-3 {
   border-bottom: 4px solid rgb(238, 255, 0);
 }
-.allsite .right .section-2 .about-boxes .box-3 i {
+.allsite .right #about #about-boxes .box-3 i {
   color: rgb(238, 255, 0);
 }
-.allsite .right .section-2 .about-boxes .box-3:hover {
+.allsite .right #about #about-boxes .box-3:hover {
   border-bottom: 4px solid rgb(255, 255, 255); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f09819, #edde5d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.allsite .right .section-2 .about-boxes .box-3:hover i {
+.allsite .right #about #about-boxes .box-3:hover i {
   color: white;
 }
-.allsite .right .section-2 .about-boxes .box-3:hover h3 {
+.allsite .right #about #about-boxes .box-3:hover h3 {
   color: white;
 }
-.allsite .right .section-2 .about-boxes .box-4 {
+.allsite .right #about #about-boxes .box-4 {
   border-bottom: 4px solid rgb(51, 255, 0);
 }
-.allsite .right .section-2 .about-boxes .box-4 i {
+.allsite .right #about #about-boxes .box-4 i {
   color: rgb(51, 255, 0);
 }
-.allsite .right .section-2 .about-boxes .box-4:hover {
+.allsite .right #about #about-boxes .box-4:hover {
   border-bottom: 4px solid rgb(255, 255, 255); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #348f50, #56b4d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.allsite .right .section-2 .about-boxes .box-4:hover i {
+.allsite .right #about #about-boxes .box-4:hover i {
   color: white;
 }
-.allsite .right .section-2 .about-boxes .box-4:hover h3 {
+.allsite .right #about #about-boxes .box-4:hover h3 {
   color: white;
 }
-.allsite .right .section-2 .hirebox {
+.allsite .right #about .hirebox {
   margin: 35px 0px;
   background: #12c2e9; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 45px 10px;
 }
-.allsite .right .section-2 .hirebox h2 {
+.allsite .right #about .hirebox h2 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 32px;
   margin-left: 10px;
 }
-.allsite .right .section-2 .hirebox button {
+.allsite .right #about .hirebox button {
   border: 1px solid rgb(255, 255, 255);
   background-color: transparent;
   padding: 5px 10px;
@@ -469,13 +469,13 @@
   color: white;
   cursor: pointer;
 }
-.allsite .right .section-2 .hirebox button:hover {
+.allsite .right #about .hirebox button:hover {
   background-color: white;
   color: #12c2e9; /* fallback for old browsers */
   color: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
   color: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.allsite .right .section-2 .hirebox button i {
+.allsite .right #about .hirebox button i {
   margin-left: 5px;
   font-size: 16px;
 }

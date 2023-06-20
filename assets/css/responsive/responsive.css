@@ -63,20 +63,20 @@
   .container .allsite .right .section-1 .images {
     display: none !important;
   }
-  .container .allsite .right .section-2 {
+  .container .allsite .right #about {
     margin-left: 10px !important;
     margin-right: 10px !important;
   }
-  .container .allsite .right .section-2 .about-boxes {
+  .container .allsite .right #about #about-boxes {
     display: block !important;
   }
-  .container .allsite .right .section-2 .about-boxes .box {
+  .container .allsite .right #about #about-boxes #box {
     width: 100% !important;
   }
-  .container .allsite .right .section-2 .about-boxes .box h3 {
+  .container .allsite .right #about #about-boxes #box h3 {
     font-size: 28px;
   }
-  .container .allsite .right .section-2 .hirebox button {
+  .container .allsite .right #about .hirebox button {
     width: 90% !important;
   }
   .container .allsite .right .section-3 {
