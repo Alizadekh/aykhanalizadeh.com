@@ -257,14 +257,13 @@ function switchThemeToWhite() {
     });
   });
 
-  let boxes = document.getElementById("about-boxes").querySelectorAll(".box");
-  for (let i = 0; i < boxes.length; i++) {
-    boxes[i].style.backgroundColor = "";
+  let boxes = document.getElementById("about-boxes").querySelectorAll("div")
+  for (i = 0; i < boxes.length; i++) {
+    boxes[i].style.backgroundColor = ""
   }
-
-  let boxtitles = document.getElementById("about-boxes").querySelectorAll("h3");
-  for (let i = 0; i < boxtitles.length; i++) {
-    boxtitles[i].style.color = "black";
+  let boxtitles = document.getElementById("about-boxes").querySelectorAll("h3")
+  for (i = 0; i < boxtitles.length; i++) {
+    boxtitles[i].style.color = "black"
   }
 
   document.getElementById("skills").querySelector("h3").style.color = "black";
