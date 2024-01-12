@@ -258,20 +258,6 @@
 .allsite .right .section-1 .texts .about p {
   font-family: "Sora", sans-serif;
 }
-.allsite .right .section-1 .texts .about .animate-text {
-  animation: typing 5s steps(30, end) infinite;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
 .allsite .right .section-1 .texts button {
   padding: 10px 50px;
   font-family: "Sora", sans-serif;
@@ -315,8 +301,6 @@
   margin: 20px 0px;
   font-size: 14px;
   display: block;
-  opacity: 0;
-  animation: reveal 0.5s forwards var(--d);
 }
 @keyframes reveal {
   from {
@@ -397,7 +381,7 @@
   color: white;
 }
 .allsite .right #about #about-boxes .box-1:hover h3 {
-  color: white;
+  color: white !important;
 }
 .allsite .right #about #about-boxes .box-2 {
   border-bottom: 4px solid rgb(255, 13, 13);
@@ -413,7 +397,7 @@
   color: white;
 }
 .allsite .right #about #about-boxes .box-2:hover h3 {
-  color: white;
+  color: white !important;
 }
 .allsite .right #about #about-boxes .box-3 {
   border-bottom: 4px solid rgb(238, 255, 0);
@@ -429,7 +413,7 @@
   color: white;
 }
 .allsite .right #about #about-boxes .box-3:hover h3 {
-  color: white;
+  color: white !important;
 }
 .allsite .right #about #about-boxes .box-4 {
   border-bottom: 4px solid rgb(51, 255, 0);
@@ -445,7 +429,7 @@
   color: white;
 }
 .allsite .right #about #about-boxes .box-4:hover h3 {
-  color: white;
+  color: white !important;
 }
 .allsite .right #about .hirebox {
   margin: 35px 0px;
@@ -743,6 +727,29 @@
   margin-left: 30px;
   margin-top: 100px;
 }
+.allsite .right .section-5 #work-box .box {
+  border-left: 5px solid #2b32b2;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: rgb(242, 243, 247);
+}
+.allsite .right .section-5 #work-box .box .work-desc h2 {
+  font-family: "Sora", sans-serif;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.allsite .right .section-5 #work-box .box .work-desc .w-date {
+  font-weight: 600;
+}
+.allsite .right .section-5 #work-box .box .work-desc p {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
 .allsite .right .section-5 .exp-title p {
   font-family: "Josefin Sans", sans-serif;
   margin-bottom: 20px;
@@ -750,9 +757,6 @@
 .allsite .right .section-5 .exp-title h3 {
   font-family: "Sora", sans-serif;
   margin: 20px 0px;
-}
-.allsite .right .section-5 .exp-text {
-  font-family: "Sora", sans-serif;
 }
 .allsite .right .section-end {
   margin-left: 30px;
