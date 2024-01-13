@@ -1,159 +1,163 @@
 @media screen and (max-width: 768px) {
-    .container{
+  .container {
+    width: 100% !important;
+
+    .allsite {
+      display: block !important;
+      width: 100% !important;
+
+      .mobile-navbar {
+        display: block !important;
+        position: fixed;
+        padding-bottom: 0px;
+      }
+
+      .left {
+        display: none !important;
+      }
+      .right {
         width: 100% !important;
+        margin-left: 0px;
 
-        .allsite{
-            display: block !important;
-            width: 100% !important;
-
-            .mobile-navbar{
-                display: block !important;
-                position: fixed;
-                padding-bottom: 0px;
+        .section-1 {
+          margin-left: 10px !important;
+          margin-right: 10px !important;
+          background-image: url("./pngegg.png");
+          background-repeat: no-repeat;
+          background-size: 200px;
+          .texts {
+            width: 90%;
+            margin-top: 200px;
+            margin-left: 10px;
+            text-align: center;
+            h1 {
+              font-family: "Josefin Sans", sans-serif;
+              font-size: 45px;
+              text-align: end;
             }
-
-            .left{
-                display: none !important;
+            .about {
+              margin: 20px 0px;
+              p {
+                font-family: "Sora", sans-serif;
+              }
             }
-            .right{
-                width: 100% !important;
-                margin-left: 0px;
-
-                .section-1{
-                    margin-left: 10px !important;
-                    margin-right: 10px !important;
-                    background-image: url("./pngegg.png");
-                    background-repeat: no-repeat;
-                    background-size:200px;
-                    .texts{
-                        width: 90%;
-                        margin-top: 200px;
-                        margin-left: 10px;
-                        text-align: center;
-                        h1{
-                            font-family: 'Josefin Sans', sans-serif;
-                            font-size: 45px;
-                            text-align: end;
-                        }
-                        .about{
-                            margin: 20px 0px;
-                            p{
-                                font-family: 'Sora', sans-serif;
-        
-                            }
-                        }
-                        button{
-                            padding: 10px 50px;
-                            font-family: 'Sora', sans-serif;
-                            background-color: transparent;
-                            border: 1px solid black;
-                            color: black;
-                            transition: 0.6s;   
-                            cursor: pointer;
-                            align-items: center;
-                            &:hover{
-                                background-color: black;
-                                color: white;
-        
-                            }
-                            i{
-                                padding-left: 5px;
-                                font-size: 18px;
-                            }
-                        }
-        
-                    }
-                    .images{
-                        display: none !important;
-                    }
-                }
-                #about{
-                    margin-left: 10px !important;
-                    margin-right: 10px !important;
-                    #about-boxes{
-                        display: block !important;
-                        #box{
-                            width: 100% !important;
-                            h3{
-                                font-size: 28px;
-                            }
-                        }
-                    }
-                    .hirebox{
-                        button{
-                            width: 90% !important;
-                        }
-                    }
-                }
-                .section-3{
-                    margin-left: 10px !important;
-                    margin-right: 10px !important;
-                    .myskills{
-                        display: block !important;
-                        .skillbox{
-                            width: 100%;
-                        }
-                    }
-                    .parallax{
-                        display: block !important;
-                        height: auto !important;
-                        padding: 20px 0px !important;
-
-                        .moves{
-                            width: 100%;
-                            padding: 10px 0px;
-                            text-align: center;
-                        }
-                    }
-                }
-                .section-4{
-                    margin-left: 10px !important;
-                    margin-right: 10px !important;
-                    .info-box{
-                        img{
-                            display: none !important;
-                        }
-                    }
-                    .info-box1{
-                        img{
-                            display: none !important;
-                        }
-                    }
-                }
-                .section-5{
-                    margin-left: 10px !important;
-                }
-                .section-end{
-                    margin-left: 10px !important;
-                    margin-right: 10px;
-                    .contact-information{
-                        display: block !important;
-                        .contact-left{
-                            width: 90% !important;
-                            margin-bottom: 20px;
-                            .c-logo{
-                                padding: 30px !important;
-                                margin-left: 0px !important;
-                                i{
-                                    font-size: 24px;
-                                }
-                            }
-                            p{
-                                font-size: 14px;
-                            }
-                        }
-                        .contact-right{
-                            width: 100% !important;
-                            input{
-                                width: 100%;
-                            }
-                            button{
-                                width: 100%;
-                            }
-                        }
-                    }
-                }
+            button {
+              padding: 10px 50px;
+              font-family: "Sora", sans-serif;
+              background-color: transparent;
+              border: 1px solid black;
+              color: black;
+              transition: 0.6s;
+              cursor: pointer;
+              align-items: center;
+              &:hover {
+                background-color: black;
+                color: white;
+              }
+              i {
+                padding-left: 5px;
+                font-size: 18px;
+              }
             }
+          }
+          .images {
+            display: none !important;
+          }
         }
+        #about {
+          margin-left: 10px !important;
+          margin-right: 10px !important;
+          #about-boxes {
+            display: block !important;
+            #box {
+              width: 100% !important;
+              h3 {
+                font-size: 28px;
+              }
+            }
+          }
+          .hirebox {
+            button {
+              width: 90% !important;
+            }
+          }
+        }
+        .section-3 {
+          margin-left: 10px !important;
+          margin-right: 10px !important;
+          .myskills {
+            display: block !important;
+            .skillbox {
+              width: 100%;
+            }
+          }
+          .parallax {
+            display: block !important;
+            height: auto !important;
+            padding: 20px 0px !important;
+
+            .moves {
+              width: 100%;
+              padding: 10px 0px;
+              text-align: center;
+            }
+          }
+        }
+        .section-4 {
+          margin-left: 10px !important;
+          margin-right: 10px !important;
+          .info-box {
+            img {
+              display: none !important;
+            }
+          }
+          .info-box1 {
+            img {
+              display: none !important;
+            }
+          }
+        }
+        .section-5 {
+          margin-left: 10px !important;
+          .box {
+            display: block !important;
+            padding: 5px;
+            img {
+              display: none;
+            }
+          }
+        }
+        .section-end {
+          margin-left: 10px !important;
+          margin-right: 10px;
+          .contact-information {
+            display: block !important;
+            .contact-left {
+              width: 90% !important;
+              margin-bottom: 20px;
+              .c-logo {
+                padding: 30px !important;
+                margin-left: 0px !important;
+                i {
+                  font-size: 24px;
+                }
+              }
+              p {
+                font-size: 14px;
+              }
+            }
+            .contact-right {
+              width: 100% !important;
+              input {
+                width: 100%;
+              }
+              button {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }

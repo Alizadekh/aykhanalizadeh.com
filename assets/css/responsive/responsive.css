@@ -112,6 +112,13 @@
   .container .allsite .right .section-5 {
     margin-left: 10px !important;
   }
+  .container .allsite .right .section-5 .box {
+    display: block !important;
+    padding: 5px;
+  }
+  .container .allsite .right .section-5 .box img {
+    display: none;
+  }
   .container .allsite .right .section-end {
     margin-left: 10px !important;
     margin-right: 10px;
