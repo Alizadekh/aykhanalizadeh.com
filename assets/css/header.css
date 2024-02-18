@@ -40,7 +40,7 @@
   font-size: 20px;
 }
 .allsite .left .profession p span {
-  color: rgba(0, 0, 255, 0.645);
+  color: white;
 }
 .allsite .left .navbar {
   margin-bottom: 30px;
@@ -71,4 +71,4 @@
 }
 .allsite .right {
   width: 75%;
-}/*# sourceMappingURL=header.css.map */
+} /*# sourceMappingURL=header.css.map */
